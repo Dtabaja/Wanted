@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Wanted</string>
+    <string name="start_str">START</string>
+    <string name="settings_str">Settings</string>
+    <string name="lanes_str">Number Of Lanes: </string>
+    <string name="vibrations_str">Vibrations: </string>
+    <string name="tilt_str">Tilt: </string>
+    <string name="save_str">SAVE</string>
+    <string name="cancel_str">CANCEL</string>
+    <string name="name">Daniel Tabaja</string>
+    <string name="name2">Alon Lubinski</string>
+    <string name="exit_str">Are you sure you want to exit?</string>
+    <string name="busted_str">Busted!</string>
+    <string name="gameover_str">Game Over</string>
+    <string name="score_str">Score: </string>
+    <string name="playagain_str">Play Again</string>
+    <string name="menu_str">Menu</string>
+    <string name="highscores_str">Highscores</string>
+    <string name="back_str">Back</string>
+    <string name="reset_str">Reset</string>
+    <string name="newHS_str">New Highscore!</string>
+    <string-array name="numOfLanes_array">
+        <item>5</item>
+        <item>3</item>
+    </string-array>
+</resources>

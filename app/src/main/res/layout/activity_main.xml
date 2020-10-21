@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="2dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/small_button_shape"
+            android:src="@drawable/ic_settings"
+            android:id="@+id/settingsButton"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/small_button_shape"
+            android:src="@drawable/ic_trophy"
+            android:layout_toRightOf="@id/settingsButton"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/highscoresButton"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/small_button_shape"
+            android:src="@drawable/ic_about"
+            android:layout_toRightOf="@id/highscoresButton"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/aboutButton"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/small_button_shape"
+            android:src="@drawable/ic_exit"
+            android:layout_alignParentRight="true"
+            android:id="@+id/exitButton"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:rotation="-10"
+            android:scaleType="fitXY"
+            android:src="@drawable/wanted_logo"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/startBtnLayout">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/big_button_shape"
+            android:text="@string/start_str"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/startButton"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
